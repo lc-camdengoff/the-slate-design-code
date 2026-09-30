@@ -5,6 +5,9 @@ file to design changes on. This file is the original: the live Slate takes
 its app from here, and its server from
 [lc-camdengoff/the_slate](https://github.com/lc-camdengoff/the_slate).
 
+New here? [ONBOARDING.md](ONBOARDING.md) walks through the whole process:
+looking at a design, changing it, and publishing it to the live Slate.
+
 ## Opening it
 
 Open `The Slate design copy.html` in a browser or a design tool. It has a
