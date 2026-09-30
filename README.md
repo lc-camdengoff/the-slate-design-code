@@ -19,6 +19,8 @@ storyboards and comments:
   your storyboards is shared with two people and has someone asking for
   access. Others are shared with you to comment on, or only to view. The
   Team Library has boards that everyone can edit, comment on or only view.
+- Some of the sample people have a photo (a drawn one) and the rest show
+  their initials, as on the live Slate.
 - To see what someone gets from a link to a board they can't open, add
   `#board=christmas-sneak-peek-5e1f2a` to the end of the file's address.
 - Whatever you do (new boards, comments, sharing) is kept in your browser,
