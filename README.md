@@ -7,7 +7,7 @@ Slate, which is built from
 
 ## Opening it
 
-Open `The Slate (design copy).html` in a browser or a design tool. It has a
+Open `The Slate design copy.html` in a browser or a design tool. It has a
 stand-in for the server built in, so all of it works on its own, the Team
 Library, Share, comments and the Trash included, with sample people,
 storyboards and comments:
@@ -49,7 +49,7 @@ stand-in server; change it only to change the sample data.
 
 ```python
 import json, re
-path = 'The Slate (design copy).html'
+path = 'The Slate design copy.html'
 page = open(path, encoding='utf-8').read()
 m = re.search(r'<script type="__bundler/template">\n(.*?)\n  </script>', page, re.S)
 app = json.loads(m.group(1))
