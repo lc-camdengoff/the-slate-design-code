@@ -1,8 +1,8 @@
 # The Slate: design copy
 
 The Slate, the filmmaking team's storyboard and shot-list tool, as one HTML
-file to design changes on. What's designed here is merged into the live
-Slate, which is built from
+file to design changes on. This file is the original: the live Slate takes
+its app from here, and its server from
 [lc-camdengoff/the_slate](https://github.com/lc-camdengoff/the_slate).
 
 ## Opening it
@@ -33,12 +33,19 @@ storyboards and comments:
 - Edit the file in place, keep its name, and commit with a line saying what
   changed.
 - The `<script data-design-copy …>` at the top of the app is the stand-in
-  server and its sample data. Change the sample data if it helps you try out
-  a design, but only your changes to the app itself are merged into the
-  Slate. Leave `const LIB_ENABLED = true; …` as it is.
-- A commit whose message starts "Fresh copy from the Slate" replaces the file
-  with the live Slate, including everything of yours merged so far. Always
-  work from the latest file.
+  server and its sample data. They stay here: the live Slate takes out the
+  stand-in and uses the real server. Change the sample data if it helps you
+  try out a design. Leave `const LIB_ENABLED = true; …` as it is, and keep
+  the `data-design-copy` on the stand-in's `<script>`: going live stops if
+  either is missing, rather than put the stand-in on the live site.
+- Merging to `main` updates this repo's GitHub Pages copy only. To make it
+  live, open [the_slate's Actions](https://github.com/lc-camdengoff/the_slate/actions/workflows/deploy.yml),
+  choose **Deploy The Slate**, then **Run workflow**. It takes the app from
+  this file on `main`, without the stand-in, and deploys it with the real
+  server. Any push to the_slate's `main` does the same.
+- Change the app here, never in the_slate: its deploy stops rather than
+  overwrite a change made there. When the real server starts sending
+  something new, change the stand-in to match.
 
 ### With Claude
 
