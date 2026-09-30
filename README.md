@@ -12,14 +12,16 @@ stand-in for the server built in, so all of it works on its own, the Team
 Library, Share, comments and the Trash included, with sample people,
 storyboards and comments:
 
-- You're signed in as Riley Carter, an ordinary member of the team. One of
+- You're signed in as Craig Groeschel, an ordinary member of the team. One of
   your storyboards is shared with two people and has someone asking for
   access. Others are shared with you to comment on, or only to view. The
   Team Library has boards that everyone can edit, comment on or only view.
 - To see what someone gets from a link to a board they can't open, add
   `#board=christmas-sneak-peek-5e1f2a` to the end of the file's address.
 - Whatever you do (new boards, comments, sharing) is kept in your browser,
-  not on any server. To start again from the sample data, open the browser's
+  not on any server. When a new version of the file changes the sample data,
+  your browser starts again from it by itself the first time you open it. To
+  start again from the sample data any other time, open the browser's
   console and run `slateDesignReset()`.
 - GIF search finds nothing, and the top bar's links go nowhere: those need
   the real server.
