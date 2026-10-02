@@ -33,7 +33,8 @@ storyboards and comments:
   server.
 - The ShotDeck panel takes stills from the Send to the Slate extension
   (in the_slate's `extension/`) on the GitHub Pages copy too, as the live
-  Slate does; opened from disk, it doesn't.
+  Slate does; opened from disk, it doesn't. Its **Get the extension** link
+  opens the live Slate's install page, as the design copy has none.
 - Opened from disk, the browser's console lists "Unsafe attempt to load URL
   {{ themeIcon }}" and a few like it. That's normal.
 
