@@ -28,8 +28,9 @@ storyboards and comments:
   your browser starts again from it by itself the first time you open it. To
   start again from the sample data any other time, open the browser's
   console and run `slateDesignReset()`.
-- GIF search finds nothing, and the top bar's links go nowhere: those need
-  the real server.
+- GIF search finds nothing, a still dragged in from ShotDeck asks for a
+  paste instead, and the top bar's links go nowhere: those need the real
+  server.
 - Opened from disk, the browser's console lists "Unsafe attempt to load URL
   {{ themeIcon }}" and a few like it. That's normal.
 
