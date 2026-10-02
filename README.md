@@ -31,6 +31,9 @@ storyboards and comments:
 - GIF search finds nothing, a still dragged in from ShotDeck asks for a
   paste instead, and the top bar's links go nowhere: those need the real
   server.
+- The ShotDeck panel takes stills from the Send to the Slate extension
+  (in the_slate's `extension/`) on the GitHub Pages copy too, as the live
+  Slate does; opened from disk, it doesn't.
 - Opened from disk, the browser's console lists "Unsafe attempt to load URL
   {{ themeIcon }}" and a few like it. That's normal.
 
