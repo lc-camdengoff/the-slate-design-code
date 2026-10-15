@@ -56,13 +56,16 @@ storyboards and comments:
 - Change the app here, never in the_slate: its deploy stops rather than
   overwrite a change made there. When the real server starts sending
   something new, change the stand-in to match.
-- **Its look is every tool's.** The colours, fonts and type scale at the top
-  of the app's first `<style>` (`colors_and_type`) are copied to
-  filmmaking-home's
+- **Its look is every tool's.** The colours, fonts, type scale and dark
+  theme come from filmmaking-home's
   [`style/brand.css`](https://github.com/lc-camdengoff/filmmaking-home/blob/main/style/brand.css),
-  which The Cage, The Scripts, Frame, the account pages and the Filmmaking
-  Team page all link to. A change to a colour, a font or the dark theme here
-  goes there too, under the same name, so the other tools follow.
+  which The Cage, The Scripts, Frame, the account pages, the Filmmaking Team
+  page and the Slate itself all link to. The app links it after its own
+  styles, so on the live Slate (and here, when online) brand.css decides.
+  The copy of the same tokens at the top of the app's first `<style>`
+  (`colors_and_type`) is only the fallback for opening this file offline.
+  Change a colour, a font or the dark theme in brand.css, and keep that copy
+  in step so the offline file matches.
 
 ### With Claude
 
