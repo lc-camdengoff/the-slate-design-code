@@ -60,12 +60,10 @@ storyboards and comments:
   theme come from filmmaking-home's
   [`style/brand.css`](https://github.com/lc-camdengoff/filmmaking-home/blob/main/style/brand.css),
   which The Cage, The Scripts, Frame, the account pages, the Filmmaking Team
-  page and the Slate itself all link to. The app links it after its own
-  styles, so on the live Slate (and here, when online) brand.css decides.
-  The copy of the same tokens at the top of the app's first `<style>`
-  (`colors_and_type`) is only the fallback for opening this file offline.
-  Change a colour, a font or the dark theme in brand.css, and keep that copy
-  in step so the offline file matches.
+  page and the Slate itself all link to. The app keeps no copy of it, its
+  fonts included: change a colour, a font or the dark theme in brand.css,
+  never here. Opened with no connection, this file draws in fallback fonts
+  and without the brand's colours; that's the price of one copy.
 
 ### With Claude
 
