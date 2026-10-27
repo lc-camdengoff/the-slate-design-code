@@ -65,7 +65,8 @@ storyboards and comments:
   never here. The top bar is the same: it's the tools' shared one
   (class `fmnav`), styled by filmmaking-home's `auth/nav.css`, which the
   app links after brand.css; only the Slate's own additions to it (the
-  light/dark switch) are in the app. Opened with no connection, this file draws in fallback fonts
+  light/dark switch) are in the app. Opened with no connection, this file
+  draws in fallback fonts
   and without the brand's colours; that's the price of one copy.
 
 ### With Claude
